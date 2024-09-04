@@ -1,0 +1,266 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gilroy';
+
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main
+{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #82616d;
+
+}
+
+#left
+{
+    position: relative;
+    width:45%;
+    height: 100%;
+
+}
+
+#center{
+    position: relative;
+    width:45% ;
+    height: 100%;
+    background-image: url('https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=1372&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=1372&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;
+    background-size:cover;
+}
+
+#right
+{
+    position: relative;
+    width: 10%;
+    height: 100%;
+}
+
+#centerscroll
+{
+    align-items: center;
+    position: absolute;
+    display:flex;
+    top:58%;
+    left:70%;
+    gap:2px;
+}
+
+#centerscroll h4
+{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: white;
+    font-weight: lighter;
+    font-size: 11px;
+}
+
+#centerwhiteline
+{
+    width:30px;
+    height:2px;
+    background-color: white;
+}
+
+#centerblackline
+{
+    width:50px;
+    height:2px;
+    background-color: black;
+}
+
+#lines
+{
+    display: flex;
+
+}
+
+#centerimage
+{
+    width:40%;
+    height: 60%;
+    background-image: url('https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=1372&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+#nav
+{
+    color:white;
+    display: flex;
+    width:100%;
+    gap:100px;
+    padding:30px 60px;
+    align-items: center;
+    text-transform: uppercase;
+
+}
+
+nav h3
+{
+    font-weight:100;
+    font-family: "Monteserrat";
+    letter-spacing: 2px;
+}
+
+#nav a{
+    text-decoration: none;
+    color:white;
+    font-size: 11px;
+}
+
+#centerimage #text1
+{
+    align-items: center;
+    color: white;
+    display: flex;
+    position: absolute;
+    bottom:-17%;
+    width:100%;
+}
+
+#text1 p
+{
+    font-size: 10px;
+    margin-left: 35px;
+}
+
+#centerimage #text2
+{
+    position: absolute;
+    bottom:-25%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+#text2 p
+{
+    font-size: 10px;
+    margin-left: 35px
+}
+
+#scroll
+{
+    transform-origin: 0% 50%;
+    transform: rotate(90deg);
+    align-items: center;
+    display: flex;
+    position: absolute;
+    bottom:40%;
+    color:white;
+    margin-left: 40px;
+    gap:10px;
+}
+
+#scroll h4
+{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 12px;
+
+}
+
+#scroll #line
+{
+    width:200px;
+    height:1px;
+    background-color: white;
+}
+
+#bigtext
+{
+    user-select: none;
+    color: white;
+    z-index: 9999;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#bigtext h1
+{
+    font-family: 'Voyage';
+    font-size: 80px;
+    font-weight: lighter;
+}
+
+#bigtext h2
+{
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+
+#card
+{
+    display: flex;
+    position:absolute;
+    width:20%;
+    height: 35%;
+    top: 65%;
+    left:77%;
+
+}
+
+#icons
+{
+    gap:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    background-color: white;
+
+}
+
+#picture
+{
+   width:80%;
+   height: 100%;
+   background-image: url('https://plus.unsplash.com/premium_photo-1668395824536-eb469c6950f5?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+   background-position: center;
+   background-size: cover;
+}
+
+#icon
+{
+    position:absolute;
+    right:30px;
+    top:20px;
+    color: white;
+}
+
+#hyperlinks
+{
+    left:70%;
+    gap:20px;
+    position:absolute;
+    top:55%;
+    display: flex;
+    transform-origin: 0% 50%;
+    transform: rotate(-90deg);
+}
+
+#hyperlinks a 
+{
+    text-decoration: none;
+    color: white;
+}
+
